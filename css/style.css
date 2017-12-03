@@ -74,6 +74,9 @@ body {
 	font-weight: bold;
 	line-height: 1;
 	color: #538FFF;
+	display: block;
+	max-height: calc(1 * 48px * 1);
+	overflow: hidden;
 }
 
 .form__text {
@@ -81,6 +84,8 @@ body {
 	font-size: 24px;
 	text-align: center;
 	color: #fff;
+	max-height: calc(1.2 * 24px * 2);
+	overflow: hidden;
 }
 
 .form__inputs-wrap {
@@ -154,6 +159,8 @@ body {
 	font-size: 20px;
 	font-style: italic;
 	color: #787d87;
+	max-height: calc(1.2 * 20px * 2);
+	overflow: hidden;
 }
 
 
